@@ -9,7 +9,7 @@ const Navbar = () => {
     {/* TODO: extract brand to new component */}
     <a className="text-2xl" href="/">Welly</a>
 
-    <div className="flex items-end">
+    <div className="flex items-end lowercase">
         <a className="text-sm mr-8" href="/home">Home</a>
         <a className="text-sm mr-8" href="/search">Search</a>
         <a className="text-sm mr-8" href="/aoout">About</a>
